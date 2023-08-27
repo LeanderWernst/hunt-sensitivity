@@ -159,6 +159,7 @@ function validateFields() {
 
 function resizeTextarea() {
     const textarea = document.getElementById('config-code');
+    textarea.style.height = "";
     textarea.style.height = textarea.scrollHeight + "px";
 }
 
