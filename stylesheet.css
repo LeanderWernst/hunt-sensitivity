@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/WebPage-background-5.jpg");
+    background-image: url("/hunt-sensitivity/images/WebPage-background-5.jpg");
     background-color: #0c1013;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -57,9 +57,6 @@ form {
 }
 
 form > div {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(7, 0fr);
@@ -88,26 +85,26 @@ label {
 }
 
 input, select {
-    border-radius: 0;
-    border: 1px solid #d7263d;
-    background-color: #0c1013;
-    color: #dae2e4;
-    width: 175px;
-    -ms-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box; 
-    box-sizing:border-box;
-    padding: 0.2em;
-    font-family: 'Crimson Text', serif;
-    font-size: 1em;
-    text-align: right;
+  border-radius: 0;
+  border: 1px solid #d7263d;
+  background-color: #0c1013;
+  color: #dae2e4;
+  width: 100%;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box; 
+  box-sizing:border-box;
+  padding: 0.2em;
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  text-align: right;
 }
 
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -290,7 +287,7 @@ footer {
     font-family: 'Crimson Text';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/crimson-text-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../hunt-sensitivity/fonts/crimson-text-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* crimson-text-italic - latin */
@@ -299,7 +296,7 @@ footer {
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 400;
-    src: url('../fonts/crimson-text-v19-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../hunt-sensitivity/fonts/crimson-text-v19-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* crimson-text-600 - latin */
@@ -308,7 +305,7 @@ footer {
     font-family: 'Crimson Text';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/crimson-text-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../hunt-sensitivity/fonts/crimson-text-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* crimson-text-600italic - latin */
@@ -317,7 +314,7 @@ footer {
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 600;
-    src: url('../fonts/crimson-text-v19-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../hunt-sensitivity/fonts/crimson-text-v19-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* crimson-text-700 - latin */
@@ -326,7 +323,7 @@ footer {
     font-family: 'Crimson Text';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/crimson-text-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../hunt-sensitivity/fonts/crimson-text-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   
   /* crimson-text-700italic - latin */
@@ -335,132 +332,5 @@ footer {
     font-family: 'Crimson Text';
     font-style: italic;
     font-weight: 700;
-    src: url('../fonts/crimson-text-v19-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../hunt-sensitivity/fonts/crimson-text-v19-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-  
-  /* spectral-200 - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: normal;
-    font-weight: 200;
-    src: url('../fonts/spectral-v13-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-200italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: italic;
-    font-weight: 200;
-    src: url('../fonts/spectral-v13-latin-200italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-300 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../fonts/spectral-v13-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-300italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: italic;
-    font-weight: 300;
-    src: url('../fonts/spectral-v13-latin-300italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-regular - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/spectral-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: italic;
-    font-weight: 400;
-    src: url('../fonts/spectral-v13-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-500 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/spectral-v13-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-500italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: italic;
-    font-weight: 500;
-    src: url('../fonts/spectral-v13-latin-500italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-600 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: normal;
-    font-weight: 600;
-    src: url('../fonts/spectral-v13-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-600italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: italic;
-    font-weight: 600;
-    src: url('../fonts/spectral-v13-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-700 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/spectral-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-700italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: italic;
-    font-weight: 700;
-    src: url('../fonts/spectral-v13-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-800 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: normal;
-    font-weight: 800;
-    src: url('../fonts/spectral-v13-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  /* spectral-800italic - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Spectral';
-    font-style: italic;
-    font-weight: 800;
-    src: url('../fonts/spectral-v13-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
