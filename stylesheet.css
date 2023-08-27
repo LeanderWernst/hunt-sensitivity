@@ -275,12 +275,31 @@ footer > p {
   .clipboard.icon {
     display: none;
   }
+  .tooltip .right{
+    max-width: 50px;
+    left: -250px;
+  }
 }
 
 /* Medium devices (tablets) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   html {
     font-size: 16px; /* Adjust this value as needed */
+  }
+  .tooltip .right {
+    max-width: 50px;
+    left: -300px;
+  }
+}
+
+/* Large devices (desktops) */
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+  html {
+    font-size: 18px; /* Adjust this value as needed */
+  }
+  .tooltip .right {
+    max-width: 50px;
+    left: -300px;
   }
 }
 
